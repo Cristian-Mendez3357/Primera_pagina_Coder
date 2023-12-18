@@ -23,8 +23,10 @@ body {
 
  }
 
+
+
  div img {
-    height: 10rem;
+    height: 9rem;
     width: auto;
     padding: 0%;
     margin: 0;
@@ -46,6 +48,7 @@ body {
     display: flex;
     align-items: end;
     height: 100%;
+    flex-wrap: wrap;
 
  }
 
@@ -53,10 +56,12 @@ body {
 
 .ol-nav {
     display: flex;
+    
 }
 
 .li-nav ¨{
     display: flex;
+    flex-wrap: wrap;
     align-items: end;
     
 }
@@ -70,6 +75,7 @@ li {
 
 
 .a-nav {
+    
     text-decoration: none;
     border-left: 2px solid black;
     border-top: 1px solid black;
@@ -284,6 +290,7 @@ li {
 .titulo-header-media {
     color: white;
     font-size: 2rem;
+    margin-bottom: 0;
 }
 
 
@@ -546,59 +553,62 @@ footer {
     background-color: black;
     width: 100%;
     height: 100%;
-}
+    }
 
-.titulo-header-media {
+    .titulo-header-media {
     color: black;
-}
+    margin-bottom: 0;
+    font-size:x-large;
+    
+    }
 
-.ol-nav-media {
-flex-direction: column;
-width: 100%;
+    .ol-nav-media {
+    flex-direction: column;
+    width: 100%;
 
-}
+    }
 
-.Nab-var-media {
-background-color: black;
-height: 100%;
-width: 100%;
-display: flex;
-align-items: center;
+    .Nab-var-media {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
 
-}
+    }
 
-.li-nav-media {
-padding-top: 0.3rem;
-padding-bottom: 0.3rem;
-margin: 0;
-width: 100%;
-text-align: center;
-height: auto;
-border-top: 1px solid white;
+    .li-nav-media {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    border-top: 1px solid white;
 
 
-}
-.a-nav-media {
+    }
+    .a-nav-media {
 
-font-size: large;
-margin: 0;
-background:none;    
-border: none;
-color:white;
-opacity: 100%;
+    font-size: large;
+    margin: 0;
+    background:none;    
+    border: none;
+    color:white;
+    opacity: 100%;
 
-}
+    }
 
-.titulo-header-media {
-    font-size:medium;
-}
+    .titulo-header-media {
+        font-size:medium;
+    }
 
-.p-footer-media {
-    padding-top: 1rem;
-}
+    .p-footer-media {
+        padding-top: 1rem;
+    }
 
-.ol-footer {
-    padding-left: 0;
-}
+    .ol-footer {
+        padding-left: 0;
+    }
 
 }
