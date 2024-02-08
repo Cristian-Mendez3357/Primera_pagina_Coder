@@ -76,7 +76,7 @@ header {
 main{
     background-image: url(../img/fondo.jpg);
     border-bottom: 1px solid $Blanco;
-    .Titulo-historia1 {
+    .titulo-historia1 {
         color: $Blanco;
         font-size: 2rem;
         padding-top: 1rem;
@@ -110,7 +110,7 @@ main{
     }
 }
 .main-personajes{
-    .Titulo-historia {
+    .titulo-historia {
         color: $Blanco;
         font-size: 2rem;
         padding-top: 1rem;
@@ -120,7 +120,7 @@ main{
     .titulo-personajes {
         font-size: 2rem;
     }
-    .Container-personajes {
+    .container-personajes {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -136,7 +136,7 @@ main{
             justify-content: space-around;
             margin: 2rem;
             .img-portada { 
-                height: 700px;
+                height: 40rem;
                 border-radius: 10%;
             }
             .texto-personajes {
@@ -171,10 +171,10 @@ main{
                 }
             }
             .img-personaje {
-                width: 500px;
-                height: 300px;
-                margin:1rem 1rem;
-                border-radius: 15%;   
+               width: 25rem;
+               height: 20rem;
+               margin:1rem 1rem;
+               border-radius: 15%;   
             }
         }
     }
@@ -228,7 +228,7 @@ main{
     }
     .main-media {
         border-bottom: 1px solid $Blanco;
-        .Titulo-historia {
+        .titulo-historia {
             color: $Blanco;
             font-size: 2rem;
             padding-top: 1rem;
@@ -239,7 +239,7 @@ main{
 }
 .main-mercha {
     margin-right: 0;
-    .Titulo-historia {
+    .titulo-historia {
         color: $Blanco;
         font-size: 2rem;
         padding-top: 1rem;
@@ -284,7 +284,7 @@ main{
     border-bottom: 1px solid $Blanco;
     background-color: black;
     margin-right: 0;
-    .Titulo-historia {
+    .titulo-historia {
         color: $Blanco;
         font-size: 2rem;
         padding-top: 1rem;
@@ -353,7 +353,7 @@ footer {
         border: 1px solid grey;
         border-radius: 5%;
     }
-    .Container-footer {
+    .container-footer {
         display: flex;
         flex-direction: row;
         .ul-footer {

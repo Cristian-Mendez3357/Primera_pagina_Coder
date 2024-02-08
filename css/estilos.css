@@ -65,7 +65,7 @@ main {
   background-image: url(../img/fondo.jpg);
   border-bottom: 1px solid #FFFFFF;
 }
-main .Titulo-historia1 {
+main .titulo-historia1 {
   color: #FFFFFF;
   font-size: 2rem;
   padding-top: 1rem;
@@ -98,7 +98,7 @@ main .container-main p {
   border-radius: 5%;
 }
 
-.main-personajes .Titulo-historia {
+.main-personajes .titulo-historia {
   color: #FFFFFF;
   font-size: 2rem;
   padding-top: 1rem;
@@ -108,41 +108,41 @@ main .container-main p {
 .main-personajes .titulo-personajes {
   font-size: 2rem;
 }
-.main-personajes .Container-personajes {
+.main-personajes .container-personajes {
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid #FFFFFF;
 }
-.main-personajes .Container-personajes h2 {
+.main-personajes .container-personajes h2 {
   color: #FFFFFF;
   text-align: center;
   margin: 2rem;
   text-decoration: underline;
 }
-.main-personajes .Container-personajes .div-personajes {
+.main-personajes .container-personajes .div-personajes {
   display: flex;
   justify-content: space-around;
   margin: 2rem;
 }
-.main-personajes .Container-personajes .div-personajes .img-portada {
-  height: 700px;
+.main-personajes .container-personajes .div-personajes .img-portada {
+  height: 40rem;
   border-radius: 10%;
 }
-.main-personajes .Container-personajes .div-personajes .texto-personajes {
+.main-personajes .container-personajes .div-personajes .texto-personajes {
   width: 50%;
   background-color: black;
   opacity: 0.8;
   border: 1px solid grey;
   border-radius: 10%;
 }
-.main-personajes .Container-personajes .div-personajes .texto-personajes h3 {
+.main-personajes .container-personajes .div-personajes .texto-personajes h3 {
   padding: 1rem;
   color: #FFFFFF;
   text-align: center;
   text-decoration: underline;
 }
-.main-personajes .Container-personajes .div-personajes .texto-personajes .p-personajes {
+.main-personajes .container-personajes .div-personajes .texto-personajes .p-personajes {
   margin-top: 2rem;
   border-left: none;
   width: 100%;
@@ -150,7 +150,7 @@ main .container-main p {
   text-align: justify;
   border: none;
 }
-.main-personajes .Container-personajes .div-personajes .texto-personajes p {
+.main-personajes .container-personajes .div-personajes .texto-personajes p {
   padding: 1rem;
   text-align: justify;
   color: #FFFFFF;
@@ -160,9 +160,9 @@ main .container-main p {
   border: 1px solid grey;
   border-radius: 5%;
 }
-.main-personajes .Container-personajes .div-personajes .img-personaje {
-  width: 500px;
-  height: 300px;
+.main-personajes .container-personajes .div-personajes .img-personaje {
+  width: 25rem;
+  height: 20rem;
   margin: 1rem 1rem;
   border-radius: 15%;
 }
@@ -205,7 +205,7 @@ main .container-main p {
 .body-media .main-media {
   border-bottom: 1px solid #FFFFFF;
 }
-.body-media .main-media .Titulo-historia {
+.body-media .main-media .titulo-historia {
   color: #FFFFFF;
   font-size: 2rem;
   padding-top: 1rem;
@@ -216,7 +216,7 @@ main .container-main p {
 .main-mercha {
   margin-right: 0;
 }
-.main-mercha .Titulo-historia {
+.main-mercha .titulo-historia {
   color: #FFFFFF;
   font-size: 2rem;
   padding-top: 1rem;
@@ -262,7 +262,7 @@ main .container-main p {
   background-color: black;
   margin-right: 0;
 }
-.main-contacto .Titulo-historia {
+.main-contacto .titulo-historia {
   color: #FFFFFF;
   font-size: 2rem;
   padding-top: 1rem;
@@ -331,18 +331,18 @@ footer p {
   border: 1px solid grey;
   border-radius: 5%;
 }
-footer .Container-footer {
+footer .container-footer {
   display: flex;
   flex-direction: row;
 }
-footer .Container-footer .ul-footer {
+footer .container-footer .ul-footer {
   display: flex;
   padding: 0;
 }
-footer .Container-footer ul li {
+footer .container-footer ul li {
   list-style-type: none;
 }
-footer .Container-footer ul li .img-social {
+footer .container-footer ul li .img-social {
   width: 3rem;
   height: 3rem;
 }
@@ -359,7 +359,7 @@ footer .Container-footer ul li .img-social {
   }
   body header .div-nab-var-media {
     padding: 0 0rem;
-    font-size: 15px;
+    font-size: 0.8rem;
   }
   body header .div-nab-var-media ul li {
     border-left: none;
@@ -378,27 +378,30 @@ footer .Container-footer ul li .img-social {
     width: auto;
   }
   body main .container-main .img-main {
-    width: 90%;
+    width: 98%;
   }
-  .main-personajes .div-personajes .img-portada {
-    width: 90%;
-  }
-  .main-personajes .Container-personajes .div-personajes {
+  .main-personajes .container-personajes .div-personajes {
     flex-direction: column;
     align-items: center;
     margin-bottom: 0;
   }
-  .main-personajes .Container-personajes .div-personajes .texto-personajes {
-    width: 90%;
-  }
-  .main-personajes .Container-personajes .div-personajes .texto-personajes .p-personajes {
-    margin-top: 0;
-  }
-  .main-personajes .Container-personajes .img-personaje {
-    width: 90%;
+  .main-personajes .container-personajes .div-personajes .img-personaje {
+    height: 18rem;
+    width: 18rem;
     margin-right: 1rem;
     margin-left: 1rem;
     margin-bottom: 1rem;
+  }
+  .main-personajes .container-personajes .div-personajes .img-portada {
+    height: 23rem;
+    width: 95%;
+  }
+  .main-personajes .container-personajes .div-personajes .texto-personajes {
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+  .main-personajes .container-personajes .div-personajes .texto-personajes .p-personajes {
+    margin-top: 0;
   }
   .main-mercha .grid-container {
     display: flex;
@@ -406,6 +409,95 @@ footer .Container-footer ul li .img-social {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     border-bottom: 1px solid #FFFFFF;
+  }
+  .main-mercha .grid-container .grid-item {
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .main-mercha .grid-container .grid-item .img-merchan {
+    width: 15rem;
+    height: 15rem;
+    margin: 0;
+    padding: 0;
+  }
+  footer {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+  body {
+    font-size: xx-small;
+    font-size: 0.9rem;
+  }
+  body header {
+    background-color: black;
+    flex-direction: column;
+    border-bottom: none;
+  }
+  body header .div-nab-var-media {
+    padding: 0 0rem;
+    font-size: 0.8rem;
+  }
+  body header .div-nab-var-media ul li {
+    border-left: none;
+    border-top: 0;
+    list-style-type: none;
+  }
+  body header .titulo-header {
+    color: black;
+  }
+  body main .container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main .container-main .texto-index {
+    width: auto;
+  }
+  body main .container-main .img-main {
+    width: 98%;
+  }
+  .main-personajes .container-personajes .div-personajes {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .main-personajes .container-personajes .div-personajes .img-personaje {
+    height: 28rem;
+    width: 80%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  .main-personajes .container-personajes .div-personajes .img-portada {
+    height: AUTO;
+    width: 80%;
+  }
+  .main-personajes .container-personajes .div-personajes .texto-personajes {
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+  .main-personajes .container-personajes .div-personajes .texto-personajes .p-personajes {
+    margin-top: 0;
+  }
+  .main-mercha .grid-container {
+    display: flex;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  .main-mercha .grid-container .grid-item {
+    margin: 3rem 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .main-mercha .grid-container .grid-item .img-merchan {
+    width: 15rem;
+    height: 15rem;
+    margin: 0;
+    padding: 0;
   }
   footer {
     flex-direction: column;
